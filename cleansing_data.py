@@ -251,36 +251,3 @@ def insert_data():
 
 # Memanggil atau menjalankan fungsi insert_data
 insert_data()
-
-# List of Type
-# fields = [
-#     StructField('id', LongType(), False),  
-#     StructField('uuid', StringType(), False),  
-#     StructField('description', TextType(), False), 
-#     StructField('price', DecimalType(precision=10, scale=2), False),
-#     StructField('some_date', DateType(), False),  
-#     StructField('some_timestamp', TimestampType(), False),
-#     StructField('binary_file', BinaryType(), False),  
-#     StructField('deleted', BooleanType(), False),
-#     StructField('tags', ArrayType(StringType()), False),
-#     StructField('metadata', StructType(), False)
-# ]
-
-# data = [
-#     {
-#         'id': 123,
-#         'uuid': '123e4567-e89b-12d3-a456',
-#         'description': 'lorem ipsum',
-#         'price': 45.67,
-#         'some_date': date_object,
-#         'some_timestamp': datetime_object,
-#         'binary_file': b'binary-encoding',
-#         'deleted': False,
-#         'tags': ['tag1', 'tag2', 'tag3'],
-#         'metadata': {
-#             'source': 'universe',
-#             'original_price': 33,
-#         }
-#     },
-#     # ...
-# ]
